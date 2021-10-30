@@ -1,3 +1,124 @@
 // Place all the styles related to the rooms controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+ table th {
+        background-color: #fff;
+        padding: 10px 20px;
+    }
+ 
+    table td {
+        background-color: #fff;
+        padding: 10px 20px;
+    }
+ 
+    .notice {
+        background-color: #fff;
+        padding: 5px;
+    }
+
+.top .top-main {
+    background-image: url(https://presite-potepancamp-rails-02.herokuapp.com/assets/img_cover_top.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+
+.top .form-fream {
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.top .form-area {
+    background: #fff;
+    padding: 24px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.top .form-area-title {
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.panel-image {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.m-5 {
+    margin: 3rem!important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box; 
+}
+
+.top .section-title {
+    font-size: 24px;
+    margin: 35px 0;
+    font-weight: bold;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
