@@ -1,8 +1,9 @@
 class RoomsController < ApplicationController
   before_action :set_q, only: [:top, :search]
   
+  
+  
   def top
-    
   end
   
   def index
