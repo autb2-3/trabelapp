@@ -1,3 +1,5 @@
+#最後がamazon.comになっているものは表示します
+
 require_relative 'boot'
 
 require 'rails/all'

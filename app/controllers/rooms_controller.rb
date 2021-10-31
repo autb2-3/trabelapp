@@ -2,6 +2,7 @@ class RoomsController < ApplicationController
   before_action :set_q, only: [:top, :search]
   
   def top
+    
   end
   
   def index
@@ -15,7 +16,7 @@ class RoomsController < ApplicationController
   def create
     @room = Room.new(params.require(:room).permit(:room_name, :room_info, :room_price, :room_place, :room_image, :user_id))
       if @room.save
-        redirect_to :rooms
+        redirect_to :rooms 
       else
         render "new"
       end
